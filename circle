@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    // DECLEARE VARIABLES
+    int radius, perimeter, area;
+
+
+    // GET USER INPUT
+    cout << "Enter radius of circle: ";
+    cin >> radius;
+
+
+    // PROCESS
+    perimeter = 2 * 3.14 * radius;
+    area = 3.14 * radius * radius;
+
+
+    // OUTPUT
+    cout << "The perimeter is " << perimeter << ".";
+    cout << endl;
+    cout << "The area is " << area << ".";
+
+    cout << endl << endl;
+    system("PAUSE");
+    return 0;
+ }
+ 
